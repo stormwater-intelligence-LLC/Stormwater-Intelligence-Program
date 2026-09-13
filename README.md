@@ -1,12 +1,32 @@
 # Stormwater Intelligence Program
 
-**Source Status:** UNASSIGNED  
-**StormAI Use:** DO NOT LOAD
+**Role:** Private experimental and analytical utility development  
+**StormAI Use:** SUPPORTING TOOL — EXPLICIT INVOCATION ONLY  
+**Source Status:** SUPPORTING
 
-This repository does not currently have an approved operating role.
+This repository contains private analytical utilities for Stormwater Intelligence.
 
-StormAI must not treat this repository as a source of operating requirements, policies, SOPs, skills, workflows, system permissions, or production instructions until its role is explicitly assigned and documented.
+Tools in this repository are not regulatory authorities, policies, SOPs, or autonomous system permissions. They may support analysis when explicitly invoked, but controlling regulatory sources, ARCSEC, approved policies, SOPs, skills, and workflows remain authoritative.
 
-Official organization source map: [StormAI Source Map](https://github.com/stormwater-intelligence-LLC/.github/blob/main/STORMAI_SOURCE_MAP.md)
+## Site Intelligence Gap Analyzer
 
-When this repository is assigned a purpose, this README and the organization source map must be updated before StormAI uses it as an operating source.
+The first utility in this repository identifies what site information is available, what is missing, what still requires verification, and what gaps could block defensible stormwater/BMP analysis.
+
+It intentionally does **not** determine permit compliance or replace QSD/QSP professional judgment.
+
+### Run
+
+```bash
+python tools/site_intelligence_gap_analyzer.py examples/site_input.json
+```
+
+### Output
+
+The tool returns structured JSON containing:
+
+- readiness score
+- available inputs
+- missing inputs
+- verification items
+- blockers
+- recommended next actions
