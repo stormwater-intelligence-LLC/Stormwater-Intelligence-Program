@@ -1,1 +1,878 @@
-__PLACEHOLDER__
+{
+  "schema_version": "3.0",
+  "scope": "Unified career knowledge graph; not verified runtime architecture",
+  "nodes": [
+    {
+      "id": "root",
+      "name": "Stormwater Intelligence",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "color": "#13c5d6",
+      "description": "Environmental operations, compliance, AI orchestration and geospatial technology",
+      "radius": 1.15,
+      "priority": "CRITICAL",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "branch-0",
+      "name": "Environmental Experience",
+      "position": [
+        -5.2,
+        2.2,
+        0.2
+      ],
+      "color": "#36b86c",
+      "description": "Environmental Experience",
+      "radius": 0.68,
+      "priority": "CRITICAL",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-0-0",
+      "name": "Regulatory Compliance",
+      "position": [
+        -7.7,
+        4.1,
+        -1.1
+      ],
+      "color": "#36b86c",
+      "description": "NPDES, SWPPP, QSD, BMPs, agency coordination",
+      "radius": 0.38,
+      "priority": "CRITICAL",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-0-1",
+      "name": "Treatment Systems",
+      "position": [
+        -8.2,
+        2.2,
+        1.4
+      ],
+      "color": "#36b86c",
+      "description": "SWTS 011/018, Actiflo, SCADA, process control",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-0-2",
+      "name": "Project Management",
+      "position": [
+        -7.1,
+        0.2,
+        -1.3
+      ],
+      "color": "#36b86c",
+      "description": "Crews, contractors, budgets, procurement",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-0-3",
+      "name": "Infrastructure",
+      "position": [
+        -5.1,
+        -0.2,
+        2.3
+      ],
+      "color": "#36b86c",
+      "description": "Drainage, HDPE, filters, turbidity monitoring",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "branch-1",
+      "name": "AI & Technology",
+      "position": [
+        0.0,
+        4.5,
+        -0.4
+      ],
+      "color": "#a46bff",
+      "description": "AI & Technology",
+      "radius": 0.68,
+      "priority": "CRITICAL",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-1-0",
+      "name": "StormAI & NEXUS",
+      "position": [
+        -2.5,
+        6.5,
+        1.3
+      ],
+      "color": "#a46bff",
+      "description": "Multi-agent orchestration; ATLAS, ARGUS, HERMES, CHRONOS, GUARDIAN",
+      "radius": 0.38,
+      "priority": "CRITICAL",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-1-1",
+      "name": "AI System Design",
+      "position": [
+        0.0,
+        7.2,
+        -1.4
+      ],
+      "color": "#a46bff",
+      "description": "AI-assisted development, workflow architecture, research, analysis",
+      "radius": 0.38,
+      "priority": "CRITICAL",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-1-2",
+      "name": "Cesium 3D Earth",
+      "position": [
+        2.7,
+        6.5,
+        1.2
+      ],
+      "color": "#a46bff",
+      "description": "Geospatial visualization, environmental layers, mapping",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-1-3",
+      "name": "Data & Automation",
+      "position": [
+        3.3,
+        4.7,
+        -2.1
+      ],
+      "color": "#a46bff",
+      "description": "PostgreSQL, APIs, evidence tracking, reports, integrations",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "branch-2",
+      "name": "Credentials & Profile",
+      "position": [
+        5.2,
+        2.1,
+        0.4
+      ],
+      "color": "#4aa9ff",
+      "description": "Credentials & Profile",
+      "radius": 0.68,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-2-0",
+      "name": "California QSD",
+      "position": [
+        7.4,
+        4.1,
+        1.4
+      ],
+      "color": "#4aa9ff",
+      "description": "Qualified SWPPP Developer",
+      "radius": 0.38,
+      "priority": "CRITICAL",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-2-1",
+      "name": "Professional Training",
+      "position": [
+        8.3,
+        2.2,
+        -1.0
+      ],
+      "color": "#4aa9ff",
+      "description": "Google AI Professional, UC Davis AI Agents, Cesium developer",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-2-2",
+      "name": "Environmental Career",
+      "position": [
+        7.0,
+        0.3,
+        1.9
+      ],
+      "color": "#4aa9ff",
+      "description": "7+ years environmental compliance and operations",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "branch-3",
+      "name": "Career Opportunities",
+      "position": [
+        5.3,
+        -2.4,
+        -0.3
+      ],
+      "color": "#ffb13b",
+      "description": "Career Opportunities",
+      "radius": 0.68,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-3-0",
+      "name": "Compliance Manager",
+      "position": [
+        7.7,
+        -1.2,
+        -1.9
+      ],
+      "color": "#ffb13b",
+      "description": "Environmental compliance and stormwater program leadership",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-3-1",
+      "name": "QSD / SWPPP Lead",
+      "position": [
+        8.2,
+        -3.2,
+        1.0
+      ],
+      "color": "#ffb13b",
+      "description": "SWPPP development, compliance oversight, advisory",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-3-2",
+      "name": "Treatment Manager",
+      "position": [
+        6.0,
+        -5.0,
+        -1.4
+      ],
+      "color": "#ffb13b",
+      "description": "Treatment-system operations and technical oversight",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-3-3",
+      "name": "AI Technical Program",
+      "position": [
+        3.6,
+        -5.0,
+        1.7
+      ],
+      "color": "#ffb13b",
+      "description": "Environmental AI, orchestration, compliance automation",
+      "radius": 0.38,
+      "priority": "HIGH",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "branch-4",
+      "name": "Work Preferences",
+      "position": [
+        -4.9,
+        -2.7,
+        0.3
+      ],
+      "color": "#ed72b8",
+      "description": "Work Preferences",
+      "radius": 0.68,
+      "priority": "SUPPORTING",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-4-0",
+      "name": "Remote / LA",
+      "position": [
+        -7.8,
+        -2.2,
+        -1.5
+      ],
+      "color": "#ed72b8",
+      "description": "Remote or Los Angeles-area roles",
+      "radius": 0.38,
+      "priority": "SUPPORTING",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-4-1",
+      "name": "Management Focus",
+      "position": [
+        -7.3,
+        -4.4,
+        1.3
+      ],
+      "color": "#ed72b8",
+      "description": "Advisory, supervisory, systems roles; no routine driving",
+      "radius": 0.38,
+      "priority": "SUPPORTING",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    },
+    {
+      "id": "node-4-2",
+      "name": "Equivalent Experience",
+      "position": [
+        -4.6,
+        -5.2,
+        -1.8
+      ],
+      "color": "#ed72b8",
+      "description": "Positions accepting experience in lieu of a degree",
+      "radius": 0.38,
+      "priority": "SUPPORTING",
+      "sources": [
+        "v1_knowledge_inventory",
+        "v2_relationship_graph"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "root",
+      "target": "branch-0",
+      "id": "category-01",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-0",
+      "target": "node-0-0",
+      "id": "category-02",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-0",
+      "target": "node-0-1",
+      "id": "category-03",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-0",
+      "target": "node-0-2",
+      "id": "category-04",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-0",
+      "target": "node-0-3",
+      "id": "category-05",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "root",
+      "target": "branch-1",
+      "id": "category-06",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-1",
+      "target": "node-1-0",
+      "id": "category-07",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-1",
+      "target": "node-1-1",
+      "id": "category-08",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-1",
+      "target": "node-1-2",
+      "id": "category-09",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-1",
+      "target": "node-1-3",
+      "id": "category-10",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "root",
+      "target": "branch-2",
+      "id": "category-11",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-2",
+      "target": "node-2-0",
+      "id": "category-12",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-2",
+      "target": "node-2-1",
+      "id": "category-13",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-2",
+      "target": "node-2-2",
+      "id": "category-14",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "root",
+      "target": "branch-3",
+      "id": "category-15",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-3",
+      "target": "node-3-0",
+      "id": "category-16",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-3",
+      "target": "node-3-1",
+      "id": "category-17",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-3",
+      "target": "node-3-2",
+      "id": "category-18",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-3",
+      "target": "node-3-3",
+      "id": "category-19",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "root",
+      "target": "branch-4",
+      "id": "category-20",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-4",
+      "target": "node-4-0",
+      "id": "category-21",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-4",
+      "target": "node-4-1",
+      "id": "category-22",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "source": "branch-4",
+      "target": "node-4-2",
+      "id": "category-23",
+      "relation": "categorized under",
+      "kind": "taxonomy",
+      "status": "structural",
+      "rationale": "Organizational grouping only; not a dependency or causal relationship."
+    },
+    {
+      "id": "rel-01",
+      "source": "node-2-2",
+      "target": "node-0-0",
+      "relation": "developed expertise in",
+      "status": "user-reported",
+      "rationale": "Environmental work includes NPDES, SWPPP and BMP compliance.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-02",
+      "source": "node-2-2",
+      "target": "node-0-1",
+      "relation": "included operations of",
+      "status": "user-reported",
+      "rationale": "Historical experience includes stormwater treatment systems.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-03",
+      "source": "node-2-2",
+      "target": "node-0-2",
+      "relation": "included responsibility for",
+      "status": "user-reported",
+      "rationale": "Project and crew coordination were part of operational work.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-04",
+      "source": "node-0-1",
+      "target": "node-0-3",
+      "relation": "depends on infrastructure such as",
+      "status": "interpretive",
+      "rationale": "Treatment operations involve conveyance, filters and monitoring infrastructure.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-05",
+      "source": "node-0-0",
+      "target": "node-2-0",
+      "relation": "is supported by credential",
+      "status": "user-reported",
+      "rationale": "California QSD qualification supports stormwater planning work.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-06",
+      "source": "node-0-0",
+      "target": "node-3-0",
+      "relation": "supports candidacy for",
+      "status": "potential",
+      "rationale": "Relevant to compliance management, subject to employer requirements.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-07",
+      "source": "node-2-0",
+      "target": "node-3-1",
+      "relation": "supports candidacy for",
+      "status": "potential",
+      "rationale": "QSD is relevant to SWPPP lead and advisory positions.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-08",
+      "source": "node-0-1",
+      "target": "node-3-2",
+      "relation": "supports candidacy for",
+      "status": "potential",
+      "rationale": "Treatment operations experience may align with oversight positions.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-09",
+      "source": "node-0-2",
+      "target": "node-3-0",
+      "relation": "supports candidacy for",
+      "status": "potential",
+      "rationale": "Management experience may align with compliance leadership.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-10",
+      "source": "node-0-2",
+      "target": "node-3-3",
+      "relation": "provides transferable skills for",
+      "status": "potential",
+      "rationale": "Project leadership can be relevant to technical program management.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-11",
+      "source": "node-1-1",
+      "target": "node-1-0",
+      "relation": "informs architecture of",
+      "status": "user-reported",
+      "rationale": "AI workflow and agent orchestration design are part of StormAI/NEXUS work.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-12",
+      "source": "node-1-0",
+      "target": "root",
+      "relation": "is part of platform",
+      "status": "user-reported",
+      "rationale": "StormAI is a subsystem of Stormwater Intelligence; NEXUS orchestrates agents within StormAI.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-13",
+      "source": "node-1-2",
+      "target": "root",
+      "relation": "is integrated into",
+      "status": "user-reported",
+      "rationale": "Cesium 3D Earth is integrated into the broader platform.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-14",
+      "source": "node-1-3",
+      "target": "root",
+      "relation": "supports operations of",
+      "status": "user-reported",
+      "rationale": "Data and automation capabilities support the platform.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-15",
+      "source": "node-0-0",
+      "target": "node-1-1",
+      "relation": "informed design of",
+      "status": "user-reported",
+      "rationale": "Owner describes operational rules as originating from environmental practice.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-16",
+      "source": "node-0-1",
+      "target": "node-1-1",
+      "relation": "informed design of",
+      "status": "user-reported",
+      "rationale": "Operational knowledge informed the platform methodology.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-17",
+      "source": "node-2-1",
+      "target": "node-1-1",
+      "relation": "supplements expertise in",
+      "status": "user-reported",
+      "rationale": "AI and agent training supplements hands-on system design experience.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-18",
+      "source": "node-1-1",
+      "target": "node-3-3",
+      "relation": "supports candidacy for",
+      "status": "potential",
+      "rationale": "AI architecture and orchestration may align with technical program roles.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-19",
+      "source": "node-1-2",
+      "target": "node-3-3",
+      "relation": "supports candidacy for",
+      "status": "potential",
+      "rationale": "Geospatial technology is relevant to environmental technology roles.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-20",
+      "source": "node-4-0",
+      "target": "node-3-0",
+      "relation": "constrains selection of",
+      "status": "constraint",
+      "rationale": "Location and remote-work requirements affect eligibility.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-21",
+      "source": "node-4-1",
+      "target": "node-3-2",
+      "relation": "constrains selection of",
+      "status": "constraint",
+      "rationale": "Avoid routine field labor and driving-dependent roles.",
+      "kind": "semantic"
+    },
+    {
+      "id": "rel-22",
+      "source": "node-4-2",
+      "target": "node-3-3",
+      "relation": "requires employer review for",
+      "status": "constraint",
+      "rationale": "Degree substitution must be explicitly allowed or assessed by employer.",
+      "kind": "semantic"
+    }
+  ],
+  "counts": {
+    "nodes": 24,
+    "taxonomy_edges": 23,
+    "semantic_edges": 22
+  },
+  "legend": {
+    "user-reported": "Based on user-described history or architecture, not independently source-code verified",
+    "interpretive": "Reasonable domain interpretation; requires evidence",
+    "potential": "Possible career relevance, not verified job eligibility",
+    "constraint": "A filter to apply to job postings",
+    "structural": "Visual category grouping, not causal"
+  },
+  "merge_metadata": {
+    "strategy": "V1 node priority and inventory, V2 typed directional relationships; matching node IDs deduplicated",
+    "priority_conflicts": [
+      {
+        "node": "Regulatory Compliance",
+        "v1": "CRITICAL",
+        "v2": "HIGH",
+        "merged": "CRITICAL"
+      },
+      {
+        "node": "Infrastructure",
+        "v1": "HIGH",
+        "v2": "SUPPORTING",
+        "merged": "HIGH"
+      },
+      {
+        "node": "StormAI & NEXUS",
+        "v1": "CRITICAL",
+        "v2": "HIGH",
+        "merged": "CRITICAL"
+      },
+      {
+        "node": "Environmental Career",
+        "v1": "HIGH",
+        "v2": "CRITICAL",
+        "merged": "HIGH"
+      }
+    ],
+    "preserved_sources": [
+      "v1",
+      "v2"
+    ]
+  },
+  "governance": {
+    "status": "CANONICAL",
+    "single_source_of_truth": "career_unified_knowledge_graph_v3.json",
+    "scope": "Professional career knowledge graph only; not live Stormwater Intelligence runtime",
+    "change_control": "Edit canonical JSON first; regenerate viewer, GLB, documentation and ZIP from canonical JSON; do not edit derivatives independently",
+    "historical_sources": [
+      "Version 1",
+      "Version 2"
+    ],
+    "historical_authority": "ARCHIVED / NON-AUTHORITATIVE",
+    "verification_note": "Evidence classifications in the graph are not independent verification of system runtime."
+  }
+}
